@@ -48,7 +48,7 @@ ALWAYS
 
 END
 
-AUTO_TRA ~weidu_external/kivan/tra/%s~
+AUTO_TRA ~%tra_location%/%s~
 
 LANGUAGE
   ~English~
@@ -61,8 +61,8 @@ LANGUAGE
   ~russian~ 
   ~Kivan/tra/english/setup.tra~
   ~Kivan/tra/english/journal.tra~
-  ~weidu_external/kivan/tra/russian/setup.tra~
-  ~weidu_external/kivan/tra/russian/journal.tra~
+  ~Kivan/tra/russian/setup.tra~
+  ~Kivan/tra/russian/journal.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
