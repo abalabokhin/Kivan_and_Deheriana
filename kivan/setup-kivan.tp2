@@ -92,9 +92,9 @@ ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 ///// bgee journal entries                             \\\\\
 /////                                                  \\\\\
 
-  ADD_JOURNAL EXISTING TITLE (#74427) @88 USING ~weidu_external/kivan/tra/%LANGUAGE%/P#KIVJ.TRA~
+  ADD_JOURNAL EXISTING TITLE (#74427) @88 USING ~Kivan/tra/%LANGUAGE%/P#KIVJ.TRA~
   ADD_JOURNAL EXISTING TITLE (#27238) @10000 @10001 @10002 @10003 @10004 
-  ADD_JOURNAL EXISTING TITLE (#74364) @25 @26 @72 @75 @79 USING ~weidu_external/kivan/tra/%LANGUAGE%/P#DEH.TRA~
+  ADD_JOURNAL EXISTING TITLE (#74364) @25 @26 @72 @75 @79 USING ~Kivan/tra/%LANGUAGE%/P#DEH.TRA~
 
 END
 
@@ -189,7 +189,7 @@ END
 
 //The following compiles baf files
 COMPILE ~Kivan/baf/P#KIVAN.baf~
-COMPILE EVALUATE_BUFFER ~Kivan/baf/P#KIV01.baf~ USING ~weidu_external/kivan/tra/%LANGUAGE%/setup.tra~
+COMPILE EVALUATE_BUFFER ~Kivan/baf/P#KIV01.baf~ USING ~Kivan/tra/%LANGUAGE%/setup.tra~
 COMPILE EVALUATE_BUFFER ~Kivan/baf/P#KIVD.baf~
 COMPILE ~Kivan/baf/P#KISQ.baf~
 COMPILE ~Kivan/baf/P#DEHER.baf~
